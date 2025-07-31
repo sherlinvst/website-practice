@@ -12,7 +12,7 @@ button{
   margin-left: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  max-width: 472px;
+  max-width: 430px;
 }
 .rock, .paper, .scissors{
   width: 40px;
