@@ -1,0 +1,10 @@
+html{
+  background-color: rgb(255, 126, 148);
+}
+body{
+  font-family: arial;
+  color: white;
+}
+p{
+  display: inline-block;
+}

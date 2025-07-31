@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="buttons.css">
+  <link rel="stylesheet" href="hidden-part.css">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="text.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bato Bato Pick</title>
+</head>
+<body>
+  <p class="title"> Bato Bato Pick</p>
+    <div class="moves">
+      <button data-move="rock"> <img src="images/rock.png" class="rock"></button>
+      <button data-move="paper"><img class="paper"src="images/paper.png"></button>
+      <button data-move="scissors"><img src="images/scissors.png" class="scissors"></button>
+    </div>
+
+    <div class="hidden-style">
+      <p class="game-result" id="result"><span id="result-text"></span>
+        <span id="result-img">
+          <img id="result-react" class="result-emoji">
+        </span>
+      </p>
+      <p class="message" id="message"> You 
+        <span id="player-move">
+          <img id="move-img" class="move-image">
+        </span> 
+        <span id="ai-move">
+          <img id="ai-move-img" class="move-image">
+        </span> 
+        Computer</p>
+    </div>
+
+    <div class="status">
+      <p id="win">Wins: <span id="wins"> 0</span>,</p>
+      <p id="lose">Losses: <span id="losses"> 0</span>,</p>
+      <p id="tie">Ties: <span id="ties"> 0</span></p>
+      <button class="reset "id="reset"> Reset Score</button>
+    </div>
+    
+
+    <script type="module" src="rock-paper-scissors.js"></script>
+</body>
+</html>

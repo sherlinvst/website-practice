@@ -1,0 +1,46 @@
+button{
+  background-color: rgb(255, 126, 148);
+  border-style: solid;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 3px;
+  width:120px;
+  height: 120px;
+  margin-left: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  vertical-align: top;
+}
+.rock, .paper, .scissors{
+  width: 40px;
+  align-content: center;
+  transition: all 0.15s ease-in-out;
+}
+.rock:hover, .paper:hover, .scissors:hover,
+.rock:active, .paper:active, .scissors:active{
+  width:140px;
+  height: 140px;
+}
+.paper{
+  width:50px
+}
+.reset{
+  display: block;
+  font-size: 20px;
+  color: rgb(255, 126, 148);
+  background-color: white;
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  margin-left: 0px;
+  transition: all 0.15s ease-in-out;
+}
+.reset:hover{
+  box-shadow: 2px 2px 20px rgb(105, 105, 105);
+}
+.reset:active{
+  background-color: rgb(255, 126, 148);
+  color: white;
+}
