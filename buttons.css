@@ -6,10 +6,13 @@ button{
   border-width: 3px;
   width:120px;
   height: 120px;
-  margin-left: 20px;
-  margin-right: 10px;
   cursor: pointer;
-  vertical-align: top;
+}
+.moves{
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 472px;
 }
 .rock, .paper, .scissors{
   width: 40px;
